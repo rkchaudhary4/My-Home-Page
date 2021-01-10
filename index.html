@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+	<title>Rishabh Chaudhary</title>
+	<meta name="author" content="Rishabh Kumar Chaudhary" />	
+	<link rel="stylesheet" type="text/css" href="jquery.multiscroll.css" />		
+	<link rel="stylesheet" type="text/css" href="examples.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.easings.min.js"></script>
+	<script type="text/javascript" src="jquery.multiscroll.min.js"></script>
+	<script src="https://kit.fontawesome.com/c27d531b23.js" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+	 $(document).ready(function() {
+            $('#myContainer').multiscroll({
+            	sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#53859A'],
+            	anchors: ['first', 'second', 'third', 'fourth'],
+            	menu: '#menu',
+            	loopTop: true,
+            	loopBottom: true
+            });
+        });
+    </script>
+</head>
+<body>
+
+<ul id="menu">
+	<li data-menuanchor="first"><a href="#first">About</a></li>
+	<li data-menuanchor="second"><a href="#second">Academics</a></li>
+	<li data-menuanchor="third"><a href="#third">Skills</a></li>
+	<li data-menuanchor="fourth"><a href="#fourth">Works</a></li>
+</ul>
+
+<div id="myContainer">
+
+	<div class="ms-left">
+		<div class="ms-section" id="left1">
+			<img src="me.jpg" class="me">
+			<br><br>
+			<a class="link" href="https://www.facebook.com/rishabhkumar.chaudhary.22" target="_blank"><i class="fab fa-facebook-f"></i></a>
+			<a class="link" href="https://www.instagram.com/chaudhary__rishabh__/" target="_blank"><i class="fab fa-instagram"></i></a>
+			<a class="link" href="https://www.linkedin.com/in/chaudharyrishabh22/" target="_blank"><i class="fab fa-linkedin"></i></a>
+			<a class="link" href="mailto:chaudharyrishu22@gmail.com" target="_blank"><i class="fab fa-google"></i></a>
+			<a class="link" href="https://github.com/rkchaudhary4" target="_blank"><i class="fab fa-github"></i></a>
+		</div>
+
+		<div class="ms-section" id="left2">
+			<ul class="acads">
+				<li>B.Tech at CSE, IITK - 8.46/10 CPI (After V Semesters)</li>
+				<br>
+				<li>93.4% in Higher Secondary Education</li>
+				<br>
+				<li>10 CGPA in 10th</li>
+			</ul>
+		</div>
+
+		<div class="ms-section" id="left3">
+			<h1>Languages</h1>
+			<br>
+			<ul>
+				<li>C/C++</li>
+				<li>Python</li>
+				<li>Haskell</li>
+				<li>Oz</li>
+				<li>Javascript/Typescript</li>
+			</ul>
+		</div>
+
+		<div class="ms-section" id="left4">
+			<img src="logo.png" class="giva">
+			<p>I have been a software developer at GIVA since May 2020. I have worked on several projects involving shopify, angular, nodejs, express, postgresql, firebase products like firestore, storage, functions, authentication. I developed the tool to administer inventory of the company and also the complete internal tools for management of app of the company.</p><br>
+			<a href="projects.html" class="projects">Other Projects</a>
+		</div>
+	</div>
+	
+	<div class="ms-right">
+		<div class="ms-section" id="right1">
+			<p>I am a Junior Undergraduate student pursuing Computer Science and Engineering at IIT Kanpur and currently a resident of Hall II. I was born pahadi amidst the beautiful hills of Kangra and brought up in Chandigarh.</p>
+			<br>
+			<p>Watching movies and tv-series is my hobby. I am a crazy joker fan. I have been slightly involved in dance too. I am working on my growth in coding skills and love to face coding challenges.</p>
+			<br>
+			<p>I am a software developer at GIVA and along with that I am also Head, Web & App in Antaragni, the cultural festival of IIT Kanpur.</p>
+		</div>
+
+		<div class="ms-section" id="right2">
+			<ul class="acads">
+				<li>Secured AIR 1103 in JEE Advanced</li>
+				<br>
+				<li>Secured AIR 3651 in JEE Mains</li>
+			</ul>
+		</div>
+
+		<div class="ms-section" id="right3">
+			<h1>Web and Other Tools</h1>
+			<br>
+			<ul style="list-style-type: none;">
+				<li>Angular</li>
+				<li>NodeJS|Express</li>
+				<li>Firebase</li>
+				<li>HTML/CSS</li>
+				<li>Shopify</li>
+				<li>Latex</li>
+				<li>Git</li>
+			</ul>
+		</div>
+
+		<div class="ms-section" id="right4">
+				<img src="logo1.png" class="antaragni"><h1 class="antar">Antaragni</h1>
+				<p>I am the Head of Web & App cell of Antaragni, the cultural fest of IITK. I developed portal for conduction of online competitions, registrations and handling of antaragni Influencers Program and registrations for roadtrips.</p>
+		</div>
+	</div>	
+</div>
+
+</body>
+</html>
